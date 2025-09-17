@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Site Acessível</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Mundo Acessível</h1>
+        <p>Site com recursos para melhorar a experiência de navegação.</p>
+    </header>
+    
+    <main>
+        <section class="content">
+            <p id="text">
+                Este site foi desenvolvido com foco na acessibilidade, proporcionando uma experiência inclusiva. Você pode ajustar o tamanho da fonte, escolher um modo de baixo estímulo visual e ativar a leitura em voz alta. Tudo foi pensado para tornar a navegação mais confortável.
+            </p>
+        </section>
+
+        <section id="controls">
+            <h2>Configurações de Acessibilidade</h2>
+            
+            <label for="font-size">Tamanho da Fonte:</label>
+            <input type="range" id="font-size" min="12" max="30" value="16">
+            <span id="font-size-value">16px</span>
+
+            <br><br>
+            
+            <label for="color-mode">Modo de Cores:</label>
+            <select id="color-mode">
+                <option value="normal">Normal</option>
+                <option value="autismo">Modo de Baixo Estímulo Visual</option>
+            </select>
+
+            <br><br>
+            
+            <button id="read-aloud">Ler Texto em Voz Alta</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Site Acessível. Feito por Geovana, 3ºB.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
